@@ -404,11 +404,6 @@ let en_19XX_m = [
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
-		group : 'Frank Sinatra',
-		song : "World We Knew (1967)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
 		group : 'Afric Simone',
 		song : "Ramaya (1975)"
 	},
@@ -426,6 +421,11 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'Elvis Presley',
 		song : "Jailhouse Rock (1957)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Frank Sinatra',
+		song : "World We Knew (1967)"
 	}
 ];
 
