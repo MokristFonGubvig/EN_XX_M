@@ -353,7 +353,8 @@ let en_19XX_m = [
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'Afric Simone',
-		song : "Hafanana (1975)"
+		song : "Hafanana (1975)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
@@ -373,7 +374,8 @@ let en_19XX_m = [
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'James Brown',
-		song : "Again (1963)"
+		song : "Again (1963)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
@@ -384,6 +386,46 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'James Brown',
 		song : "The Payback (1973)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'James Brown',
+		song : "I Got You (I Feel Good) (1965)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Frank Sinatra',
+		song : "Strangers In the Night (1966)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Frank Sinatra',
+		song : "Let It Snow! Let It Snow! Let It Snow! (1950)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Frank Sinatra',
+		song : "World We Knew (1967)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Afric Simone',
+		song : "Ramaya (1975)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Elvis Presley',
+		song : "Can't Help Falling In Love (1973)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Elvis Presley',
+		song : "Love Me Tender (1956)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Elvis Presley',
+		song : "Jailhouse Rock (1957)"
 	}
 ];
 
