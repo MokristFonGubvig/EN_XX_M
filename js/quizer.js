@@ -369,6 +369,21 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'Frank Sinatra',
 		song : "That's Life (1966)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'James Brown',
+		song : "Again (1963)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'James Brown',
+		song : "It's A Man's Man's Man's World (1966)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'James Brown',
+		song : "The Payback (1973)"
 	}
 ];
 
