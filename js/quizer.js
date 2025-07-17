@@ -343,26 +343,47 @@ function load(){
 
 // EN songs
 
+const en_19XX_m_icon = [
+	'pop'
+];
 
+const EN_19XX_M_PACK_1 = 1;
+
+let en_19XX_m = [
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Afric Simone',
+		song : "Hafanana (1975)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Barry White',
+		song : "I'm Gonna Love You Just A Little More Baby (1973)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Chuck Berry',
+		song : "Nadine (1964)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Frank Sinatra',
+		song : "That's Life (1966)"
+	}
+];
+
+let en_19XX_m_1 =	en_19XX_m.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: en_2000_m,
+		arr: en_19XX_m,
 		lang: 'en',
-		year: '2000',
+		year: '19XX',
 		type: 'm',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
-				},
-				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: en_19XX_m_1,
+					name: 'EN 19XXs Male: Pop',
 				}
 			]
 	}
@@ -690,21 +711,21 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2000';
+	year = '19XX';
 	artist_type = 'm';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_19XX_m_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
 }
 
 let pack_num;
-let year_url = 'https://sunquiz.netlify.app/2020';
+let year_url = 'https://sunquiz.netlify.app/19XX';
 
 function useUrlParam() {
 	var url_string = window.location.href; 
