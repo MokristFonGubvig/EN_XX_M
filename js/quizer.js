@@ -426,6 +426,31 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'Frank Sinatra',
 		song : "World We Knew (1967)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Chuck Berry',
+		song : "Johnny B. Goode (1958)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Chuck Berry',
+		song : "Merry Christmas Baby (1958)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Ray Charles',
+		song : "Hit the Road Jack (1961)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Ray Charles',
+		song : "Georgia on My Mind (1960)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Ray Charles',
+		song : "I Can't Stop Loving You (1962)"
 	}
 ];
 
