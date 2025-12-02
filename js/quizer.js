@@ -451,6 +451,21 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'Ray Charles',
 		song : "I Can't Stop Loving You (1962)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Charles Aznavour',
+		song : "Il Faut Savoir (1961)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Charles Aznavour',
+		song : "Il Faut Savoir (1961)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Charles Aznavour',
+		song : "Je T'attends (1963)"
 	}
 ];
 
