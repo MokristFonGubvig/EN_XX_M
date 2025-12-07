@@ -359,7 +359,8 @@ let en_19XX_m = [
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'Barry White',
-		song : "I'm Gonna Love You Just A Little More Baby (1973)"
+		song : "I'm Gonna Love You Just A Little More Baby (1973)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
@@ -385,7 +386,8 @@ let en_19XX_m = [
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'James Brown',
-		song : "The Payback (1973)"
+		song : "The Payback (1973)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
@@ -405,12 +407,14 @@ let en_19XX_m = [
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'Afric Simone',
-		song : "Ramaya (1975)"
+		song : "Ramaya (1975)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
 		group : 'Elvis Presley',
-		song : "Can't Help Falling In Love (1973)"
+		song : "Can't Help Falling In Love (1973)",
+		ignore : true
 	},
 	{
 		pack : EN_19XX_M_PACK_1,
