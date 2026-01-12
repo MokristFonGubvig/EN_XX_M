@@ -342,144 +342,278 @@ function load(){
 }
 
 // EN songs
-
-const en_19XX_m_icon = [
-	'pop'
+const en_1970_m_icon = [
+	'pop',
+	'pop_2'
 ];
 
-const EN_19XX_M_PACK_1 = 1;
+const EN_1970_M_PACK_1 = 1;
+const EN_1970_M_PACK_2 = 2;
 
-let en_19XX_m = [
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Afric Simone',
-		song : "Hafanana (1975)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Barry White',
-		song : "I'm Gonna Love You Just A Little More Baby (1973)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Chuck Berry',
-		song : "Nadine (1964)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Frank Sinatra',
-		song : "That's Life (1966)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'James Brown',
-		song : "Again (1963)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'James Brown',
-		song : "It's A Man's Man's Man's World (1966)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'James Brown',
-		song : "The Payback (1973)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'James Brown',
-		song : "I Got You (I Feel Good) (1965)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Frank Sinatra',
-		song : "Strangers In the Night (1966)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Frank Sinatra',
-		song : "Let It Snow! Let It Snow! Let It Snow! (1950)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Afric Simone',
-		song : "Ramaya (1975)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Elvis Presley',
-		song : "Can't Help Falling In Love (1973)",
-		ignore : true
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Elvis Presley',
-		song : "Love Me Tender (1956)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Elvis Presley',
-		song : "Jailhouse Rock (1957)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Frank Sinatra',
-		song : "World We Knew (1967)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Chuck Berry',
-		song : "Johnny B. Goode (1958)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Chuck Berry',
-		song : "Merry Christmas Baby (1958)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Ray Charles',
-		song : "Hit the Road Jack (1961)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Ray Charles',
-		song : "Georgia on My Mind (1960)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Ray Charles',
-		song : "I Can't Stop Loving You (1962)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Charles Aznavour',
-		song : "Il Faut Savoir (1961)"
-	},
-	{
-		pack : EN_19XX_M_PACK_1,
-		group : 'Charles Aznavour',
-		song : "Je T'attends (1963)"
-	}
+let en_1970_m = [
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Al Green',
+			song : "Let's Stay Together (1972)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Al Green',
+			song : 'Love and Happiness (1972)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Afric Simone',
+			song : 'Todo Pasará María (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Barry Manilow',
+			song : 'Copacabana (At the Copa) (1978)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Barry White',
+			song : "I'm Gonna Love You Just A Little More Baby (1973)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Barry White',
+			song : 'Never, Never Gonna Give Ya Up (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Bob Dylan',
+			song : 'Hurricane (1975)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Bob Dylan',
+			song : "Knockin' On Heaven's Door (1973)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Bob Marley',
+			song : 'No Woman, No Cry (ft The Wailers) (1974)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Bob Marley',
+			song : 'I Shot The Sheriff (ft The Wailers) (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Charlie Rich',
+			song : 'The Most Beautiful Girl (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Chris Norman',
+			song : "Stumblin' In (ft Suzi Quatro) (1978)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Chris Rea',
+			song : 'Three Angels (1978)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'David Bowie',
+			song : 'Moonage Daydream (1972)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'David Bowie',
+			song : 'Right (1975)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'David Bowie',
+			song : 'Starman (1972)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Elton John',
+			song : 'Bennie and the Jets (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Elton John',
+			song : 'Crocodile Rock (1972)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Elton John',
+			song : "My Father's Gun (1970)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Eric Clapton',
+			song : 'Layla (1970)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Eric Clapton',
+			song : 'Let It Grow (1974)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Eric Clapton',
+			song : 'Next Time You See Her (1977)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Freddy Fender',
+			song : 'Before the Next Teardrop Falls (1974)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Ian Gilian',
+			song : 'Gethsemane (I Only Want To Say) (1970)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Iggy Pop',
+			song : 'Lust For Life (1977)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Iggy Pop',
+			song : 'The Passenger (1977)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Iggy Pop',
+			song : 'Tonight (1977)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'James Brown',
+			song : 'The Payback (1973)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Joe Dassin',
+			song : "L'ete indien (1975)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'John Paul Young',
+			song : "Love Is in the Air (1977)",
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'John Travolta',
+			song : "You're the One That I Want (ft Olivia Newton-John) (1978)",
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Johnny Cash',
+			song : '(Ghost) Riders In the Sky (1979)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Lou Reed',
+			song : "Perfect Day (1972)",
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Michel Fugain',
+			song : "Une belle histoire (1972)"
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Morris Albert',
+			song : 'Feelings (1974)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Neil Young',
+			song : 'Heart of Gold (1971)',
+			ignore : true
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Rod Stewart',
+			song : "Da Ya Think I'm Sexy? (1978)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Rod Stewart',
+			song : 'Hot Legs (With Tina Turner) (1977)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Stevie Wonder',
+			song : 'Pastime Paradise (1976)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Stevie Wonder',
+			song : 'Superstition (1972)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Bill Withers',
+			song : "Ain't No Sunshine (1971)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Charles Aznavour',
+			song : "Tous les visages de l'amour (1975)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Bob Marley',
+			song : 'No Woman, No Cry (ft The Wailers) (1974)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'Neil Young',
+			song : 'Heart of Gold (1971)'
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Eric Clapton',
+			song : 'Layla (1970)'
+		},
+		{
+			pack : EN_1970_M_PACK_2,
+			group : 'John Paul Young',
+			song : "Love Is in the Air (1977)"
+		},
+		{
+			pack : EN_1970_M_PACK_1,
+			group : 'Iggy Pop',
+			song : 'The Passenger (1977)'
+		}
 ];
 
-let en_19XX_m_1 =	en_19XX_m.filter(item => item.pack == 1);
+let en_1970_m_1 =	en_1970_m.filter(item => item.pack == 1);
+let en_1970_m_2 =	en_1970_m.filter(item => item.pack == 2);
 
 let music = [
 	{
-		arr: en_19XX_m,
+		arr: en_1970_m,
 		lang: 'en',
-		year: '19XX',
+		year: '1970',
 		type: 'm',
 		packs: [
 				{
-					arr: en_19XX_m_1,
-					name: 'EN 19XXs Male: Pop',
+					arr: en_1970_m_1,
+					name: 'EN 1970s Male: Pop'
+				},
+				{
+					arr: en_1970_m_2,
+					name: 'EN 1970s Male: One Hit'
 				}
 			]
 	}
@@ -807,21 +941,21 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '19XX';
+	year = '1970';
 	artist_type = 'm';
+	package_names = en_1970_m_icon;
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_19XX_m_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
 }
 
 let pack_num;
-let year_url = 'https://sunquiz.netlify.app/19XX';
+let year_url = 'https://sunquiz.netlify.app/1970';
 
 function useUrlParam() {
 	var url_string = window.location.href; 
