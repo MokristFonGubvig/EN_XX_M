@@ -465,6 +465,11 @@ let en_19XX_m = [
 		pack : EN_19XX_M_PACK_1,
 		group : 'Charles Aznavour',
 		song : "Je T'attends (1963)"
+	},
+	{
+		pack : EN_19XX_M_PACK_1,
+		group : 'Neil Diamond',
+		song : "Girl, You'll Be a Woman Soon (1967)"
 	}
 ];
 
